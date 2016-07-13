@@ -8,5 +8,6 @@ Aim : To obtain a mask from the probability map of the images in the dataset.
 Files in this Directory:
 min_max.m: Extracts the minimium and maximium cordinates in all three planes which will enclose all the four RoI.
 So 256x128x256 volume will shrink to 73x39x54, this will ensure that we are working only in the that part of the  where either of four RoI are present. 
+
 pruned.m: Re-shapes 3D volume of 83 MRIs.
 
