@@ -1,0 +1,4 @@
+Here you will find the files required to verify the model.
+
+fulllverify.m: It creates 30 sets of validation data.
+dice.m: It calculates the dice coefficient of each of the 30 sets of validation data.
