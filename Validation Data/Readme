@@ -2,3 +2,7 @@ Here you will find the files required to verify the model.
 
 fulllverify.m: It creates 30 sets of validation data.
 dice.m: It calculates the dice coefficient of each of the 30 sets of validation data.
+
+The final results can be found in the following files:
+averageAllROI.txt: contains the 5x5 matrix which has all the averages from healthy, Disease1, Disease2, Disease3 as well as the overall average.
+finalData.txt: contains the 120x5 matrix covering the dice coefficients from all 4 categories (each has a corresponding 30x5 matrix)
